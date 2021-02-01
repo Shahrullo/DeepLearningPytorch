@@ -4,7 +4,7 @@ The repository shows how to use Transfer Learning.
 
 In the noteboook, we used [VGGNet](https://arxiv.org/pdf/1409.1556.pdf) trained on the [ImageNet dataset](http://www.image-net.org/) as a feature extractor. Below is the architecture of the VGGNet with a series of convolutional and maxpooling layers, then three fully-connected layers at the end that classify the 1000 classes found in the ImageNet database. 
 
-[VGG-16 Architecture](https://github.com/Shahrullo/DeepLearningPytorch/blob/main/TransferLearning/notebook_ims/vgg_16_architecture.png)
+<img src="https://github.com/Shahrullo/DeepLearningPytorch/blob/main/TransferLearning/notebook_ims/vgg_16_architecture.png">
 
 VGGNet is great because it's simple and has great performance. The idea here is that we keep all the convolutional layers, but replace the final fully-connected layer with our own classifier. This way we can use VGGNet as a fixed feature extractor for our images then easily train a simple classifier on top of that.
 
