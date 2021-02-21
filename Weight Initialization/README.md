@@ -27,7 +27,8 @@ We'll train an MLP to classify images from the [Fashion-MNIST database](https://
 For `Weight Initialization` we tried both [Uniform Distribution](https://en.wikipedia.org/wiki/Uniform_distribution) and [Normal Distribution](https://en.wikipedia.org/wiki/Normal_distribution).
 
 The following graph shows the decreasing of losses in batches in both condition
-<img href="https://github.com/Shahrullo/DeepLearningPytorch/blob/main/Weight%20Initialization/notebook_ims/distribution.PNG">
+
+![loss](https://github.com/Shahrullo/DeepLearningPytorch/blob/main/Weight%20Initialization/notebook_ims/distribution.PNG)
 
 ```
 After 2 Epochs:
