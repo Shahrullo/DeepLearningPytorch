@@ -22,3 +22,19 @@ We'll train an MLP to classify images from the [Fashion-MNIST database](https://
 
 * A 3 layer MLP with hidden dimensions of 256 and 128.
 * This MLP accepts a flattened image (784-value long vector) as input and produces 10 class scores as output.
+
+## Weight Initialization
+For `Weight Initialization` we tried both [Uniform Distribution](https://en.wikipedia.org/wiki/Uniform_distribution) and [Normal Distribution](https://en.wikipedia.org/wiki/Normal_distribution).
+
+The following graph shows the decreasing of losses in batches in both condition
+[](https://github.com/Shahrullo/DeepLearningPytorch/blob/main/Weight%20Initialization/notebook_ims/distribution.PNG)
+```
+After 2 Epochs:
+Validation Accuracy
+   84.567% -- Uniform Rule [-y, y)
+   84.867% -- Normal Distribution
+Training Loss
+    0.552  -- Uniform Rule [-y, y)
+    0.422  -- Normal Distribution
+```
+
