@@ -18,3 +18,7 @@ We'll train an MLP to classify images from the [Fashion-MNIST database](https://
 
 ##### We've defined the MLP that we'll use for classifying the dataset.
 ![](https://github.com/Shahrullo/DeepLearningPytorch/blob/main/Weight%20Initialization/notebook_ims/neural_net.png)
+
+
+* A 3 layer MLP with hidden dimensions of 256 and 128.
+* This MLP accepts a flattened image (784-value long vector) as input and produces 10 class scores as output.
