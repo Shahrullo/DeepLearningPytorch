@@ -15,3 +15,6 @@ We will see how different weights perform different results on the same dataset 
 ## Dataset and Model
 
 We'll train an MLP to classify images from the [Fashion-MNIST database](https://github.com/zalandoresearch/fashion-mnist) to demonstrate the effect of different initial weights. As a reminder, the FashionMNIST dataset contains images of clothing types; classes = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']. The images are normalized so that their pixel values are in a range [0.0 - 1.0).
+
+##### We've defined the MLP that we'll use for classifying the dataset.
+![](https://github.com/Shahrullo/DeepLearningPytorch/blob/main/Weight%20Initialization/notebook_ims/neural_net.png)
